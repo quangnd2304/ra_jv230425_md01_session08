@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Khai báo biến chứa giá trị tên sinh viên - biến studentName chưa có kiểu dữ liệu
+        var studentName;
+        console.log("Kiểu dữ liệu của biến studentName---->", typeof (studentName));
+        // hoisting
+        var age
+        console.log("Giá trị studentName khi chưa khởi tạo giá trị---->", studentName);
+        // Khởi tạo giá trị biến tên sinh viên với giá trị là Nguyễn Văn A
+        studentName = "Nguyễn Văn A";
+        console.log("Kiểu dữ liệu của biến studentName sau khi gán giá trị---->", typeof (studentName));
+        console.log("Giá trị studentName khi đã được khởi tạo giá trị---->", studentName);
+        //Khai báo và khởi tạo giá trị tên biến mã sinh viên
+        var studentId = "SV001";
+        console.log("Giá trị studentId khi được khai báo và khởi tạo giá trị--->", studentId);
+        // Có thể khai báo lại và gán lại giá trị
+        studentName = "Nguyễn Văn B";
+        console.log("GIá trị studentName sau khi khai báo lại và gán lại giá trị----->", studentName);
+        // hoisting
+        console.log("Giá trị biến age là---->", age);
+        // var age = 10
+        age = 10;
+
+        var mark = 10;
+        console.log("Kiểu dữ liệu của mark khi gán giá trị 10--->", typeof (mark));
+        mark = "abc";
+        console.log("Kiểu dữ liệu của mark khi gán abc---->", typeof (mark));
+        // Khai báo các biến
+        var number1, number2, number3;
+        //Khai báo và khởi tạo giá trị cho nhiều biến
+        var number4 = 5, number5 = 8.7, str = "abcd";
+        // Kết thúc câu lệnh bằng cách xuống dòng
+        let a = 5
+        let c = 10
+        // Kết thúc câu lệnh bằng cách ;
+        let d = 8;
+
+    </script>
+</body>
+
+</html>

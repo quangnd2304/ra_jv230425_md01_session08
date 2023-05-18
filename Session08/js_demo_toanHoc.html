@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Toán tử toán học: +, - , * , /
+        // Toán tử %: lấy số dư trong phép chia
+        let a = 10;
+        console.log("Số dư trong phép chia 3--->", a % 3);
+        a++;
+        console.log("Giá trị a sau khi ++ -->", a);
+        a--;
+        console.log("Giá trị a sau khi -- -->", a);
+        let b = 10;
+        let c = b++;//c=10, b=11
+        console.log("Giá trị c là -->", c);
+        let d = ++b;//b=12, d =12
+        console.log("Giá trị d là -->", d);
+        // Toán tử gán
+        let number1 = 10;//num1 = 10
+        number1 += 10;//number1 = number1+10 --> number1 = 20
+        number1 *= 2;//number1 = number1*2
+        number1 /= 3;//number1 = number1/3
+        number1 %= 2;//number1 = number1%2 
+        // Toán tử so sánh
+        let num1 = 10;
+        let num2 = "10";
+        // So sánh giá trị
+        let result1 = (num1 == num2);
+        console.log("Giá trị của result1-->", result1);
+        // So sánh giá trị và kiểu dữ liệu
+        let result2 = (num1 === num2);
+        console.log("Giá trị của result2--->", result2);
+        // Toán tử logic: and, or, not
+        // Toán tử and: &&
+        true && true;//--> true
+        true && false;//-->false
+        false && false;//-->false
+        // Toán tử or: ||
+        true || true;//-->true
+        true || false;//-->true
+        false || false;//-->false
+        // Toán tử not: !
+        !true;//-->false
+        !false;//-->true
+        // Toán tử 3 ngôi: exp1?exp2:exp3
+        let firstNumber = (5 > 10) ? 3 : 9;
+        console.log("Giá trị firstNumber--->", firstNumber);
+    </script>
+</body>
+
+</html>

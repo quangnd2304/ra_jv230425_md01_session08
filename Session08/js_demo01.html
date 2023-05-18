@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các cách nhúng js</title>
+</head>
+
+<body>
+    <!-- Cách 1 - inline - Viết mã javascript bên trong thẻ html -->
+    <button onclick="alert('Tôi đang viết javascript bằng cách inline')">Inline</button>
+    <!-- Cách 2 - internal - viết mã js bên trong file html -->
+    <button onclick="talk()">Internal</button>
+    <script>
+        function talk() {
+            alert('Tôi đang viết javascript bằng cách internal');
+        }
+    </script>
+    <!-- Cách 3 - external - viết mã js ra 1 file js và nhúng vào file html -->
+    <button onclick="notify()">External</button>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
